@@ -25,7 +25,6 @@ Gem::Specification.new do |gem|
   gem.version       = GoogleAuthenticatorRails::VERSION
 
   gem.add_dependency "rotp", "= 3.3.0"
-  gem.add_dependency "rails"
   gem.add_dependency "activerecord"
   gem.add_dependency "google-qr"
   gem.add_dependency "rqrcode"
